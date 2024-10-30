@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body class="font-sans bg-gray-50 font-semibold">
+    <!-- Navbar -->
+    <header class="bg-gray-50 p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-gray-800 text-2xl">My Profile</h1>
+            <ul class="flex space-x-6 text-gray-900">
+                <li><a href="#homet" class="hover:underline">Home</a></li>
+                <li><a href="#projects" class="hover:underline">Skills</a></li>
+                <li><a href="#experience" class="hover:underline">Experience</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container mx-auto my-10 flex flex-col md:flex-row items-center">
+        <img src="img/profile1.png" alt="Foto Profil" class="w-90 h-90 rounded-full mb-2 md:mb-0 md:mr-4">
+        <section class="text-left mt-10">
+            <p class="text-gray-400 text-xl ">Hello All I'am</p>
+            <h2 class="text-3xl font-bold text-gray-700">Saryal Misnati Putri</h2>
+            <hr class="border-t border-gray-300 rounded-md mt-4 w-full" style="border-radius: 10px;">
+            <section id="about" class="container mx-auto my-10">
+                <h3 class="text-center  mb-6 text-3xl">About</h3>
+                <p class="text-center text-gray-700">Saya adalah seorang mahasiswa semester 5<br>saya suka belajar hal hal baru yang membuat saya banyak belajar terutama mengenai web development dan ui/ux design
+                    saya pernah mengerjakan beberapa project kecil dengan kelompok dan team saya</h4>
+                </p>
+            </section>
+        </section>
+    </section>
+    <!-- skills Section -->
+    <section  class="container mx-auto my-10">
+        <section id="projects">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-lg animate-box">
+                        <div class="flex justify-center mb 4">
+                            <img src="img/icon web.png" alt="Proyek 1" class=" h-20 object-cover rounded mb-4 ">
+                        </div>
+                        <h4 class="font-semibold text-lg mb-2 text-center cursor-pointer hover:text-pink-500">Web Development</h4>
+                        <p class="text-gray-600"> Mengembangkan situs web yang responsif dan dinamis, dengan fitur interaktif, database, serta pemrograman sisi server untuk menciptakan pengalaman pengguna yang mulus.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg animate-box">
+                        <div class="flex justify-center mb 4">
+                            <img src="img/icon uiux.png" alt="Proyek 1" class=" h-20 object-cover rounded mb-4 ">
+                        </div>
+                        <h4 class="font-semibold text-lg mb-2 text-center cursor-pointer hover:text-blue-500">UI/UX Design</h4>
+                         <p class="text-gray-600">Merancang antarmuka pengguna yang menarik secara visual dan mudah digunakan. Berfokus pada kebutuhan pengguna untuk navigasi yang intuitif dan tata letak yang estetis, meningkatkan interaksi pengguna</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg animate-box">
+                        <div class="flex justify-center mb 4">
+                            <img src="img/pm.png" alt="Proyek 1" class=" h-20 object-cover rounded mb-4 ">
+                        </div>
+                        <h4 class="font-semibold text-lg mb-2 text-center cursor-pointer hover:text-green-500">Project Manajemen</h4>
+                        <p class="text-gray-600"> Mengelola proyek dari awal hingga akhir, termasuk perencanaan, koordinasi tim, dan pengawasan kemajuan untuk memastikan semua tahapan proyek selesai tepat waktu dan sesuai anggaran.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Experience Section-->
+         <section id="experience" class="container mx-auto my-12 px-6">
+            <section id="experience" class="container mx-auto my-10">
+                <h3 class="text-3xl font-bold mb-10 text-center">Pengalaman</h3>
+                <div class="relative border-l border-gray-300">
+                    <!-- Experience 1 -->
+                      <div class="mb-8 ml-10">
+                        <div class="absolute -left-3.5 w-7 h-7 bg-sky-400 rounded-full"></div>
+                        <h4 class="text-xl font-semibold">UI/UX Designer</h4>
+                        <p class="text-gray-600 font-medium">ProjectMikro | 2024</p>
+                        <p class="text-gray-700 mt-1">Merancang antarmuka yang responsif dan ramah pengguna untuk aplikasi mikro. Fokus pada pengalaman interaktif pengguna dan desain yang konsisten.</p>
+                    </div>
+                    <!-- Experience 2 -->
+                     <div class="mb-8 ml-10">
+                        <div class="absolute -left-3.5 w-7 h-7 bg-green-400 rounded-full"></div>
+                        <h4 class="text-xl font-semibold">Web Developer</h4>
+                        <p class="text-gray-600 font-medium">Sistem Perpustakaan | 2021</p>
+                        <p class="text-gray-700 mt-1">Mengembangkan sistem berbasis web untuk pengelolaan perpustakaan, meningkatkan efisiensi pencarian dan peminjaman buku.</p>
+                    </div>
+                    <!-- Experience 3 -->
+                     <div class="mb-8 ml-10">
+                        <div class="absolute -left-3.5 w-7 h-7 bg-yellow-400 rounded-full"></div>
+                        <h4 class="text-xl font-semibold ">UI/UX Designer</h4>
+                        <p class="text-gray-600 font-medium">Massive Project | 2024</p>
+                        <p class="text-gray-700 mt-1">Merancang antarmuka pengguna yang menarik dan ramah lingkungan untuk situs agrowisata Narmada Botanic Garden, mempromosikan keindahan alam dan fasilitas wisata secara online.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+<!-- Footer -->
+<footer class="bg-gray-50 text-gray-600 text-center p-4">
+    <hr class="my-4 border-t border-gray-900">
+    <div class="flex justify-center space-x-6">
+        <a href="https://instagram.com/yourprofile" target="_blank" class="text-gray-600 hover:text-pink-500">
+            <i class="fab fa-instagram text-2xl"></i>
+        </a>
+        <a href="mailto:youremail@example.com" class="text-gray-600 hover:text-red-500">
+            <i class="fas fa-envelope text-2xl"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-gray-600 hover:text-blue-700">
+            <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+        <a href="https://wa.me/yourphonenumber" target="_blank" class="text-gray-600 hover:text-green-500">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+    <p>&copy; 2024 Saryal Misnati Putri.</p>
+</footer>
+</body>
+</html>

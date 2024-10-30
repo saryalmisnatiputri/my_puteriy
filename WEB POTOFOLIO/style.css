@@ -1,0 +1,15 @@
+/* Animasi untuk bergerak (scale) */
+.animate-box {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animate-box:hover {
+    transform: scale(1.08); /* Membesarkan sedikit saat hover */
+}
+
+.animate-box:active {
+    transform: scale(0.95); /* Mengecilkan sedikit saat diklik */
+}
+
+
+
